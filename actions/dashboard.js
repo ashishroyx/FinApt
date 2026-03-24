@@ -48,8 +48,7 @@ export async function createAccount(data) {
     const { userId } = await auth();
     if (!userId) throw new Error("Unauthorized");
 
-    // NOTE: Arcjet protection removed because imports were commented out
-    // to prevent execution errors.
+    
 
     const user = await db.user.findUnique({
       where: { clerkUserId: userId },

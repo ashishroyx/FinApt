@@ -130,7 +130,7 @@ export function BudgetProgress({ initialBudget, currentExpenses }) {
           <div className="space-y-2">
             <Progress
               value={percentUsed}
-              // FIX: Pass the color as a specific prop, not a style object
+              
               indicatorColor={
                 percentUsed >= 90
                   ? "bg-red-500"

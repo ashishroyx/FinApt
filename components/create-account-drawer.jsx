@@ -74,9 +74,7 @@ export function CreateAccountDrawer({ children }) {
 
   return (
     <Drawer open={open} onOpenChange={setOpen}>
-      {/* FIX: Wrapped children in a div to prevent 
-          the "div inside button" hydration error. 
-      */}
+      
       <DrawerTrigger asChild>
         <div className="cursor-pointer">{children}</div>
       </DrawerTrigger>

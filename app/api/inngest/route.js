@@ -8,7 +8,7 @@ import {
   triggerRecurringTransactions,
 } from "@/lib/inngest/function";
 
-export const runtime = "nodejs"; // ✅ ADD THIS
+export const runtime = "nodejs"; 
 
 export const { GET, POST } = serve({
   client: inngest,

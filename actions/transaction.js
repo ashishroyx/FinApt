@@ -12,7 +12,7 @@ const serializeAmount = (obj) => ({
   amount: obj.amount.toNumber(),
 });
 
-// Create Transaction
+
 export async function createTransaction(data) {
   try {
     const { userId } = await auth();
@@ -70,7 +70,7 @@ export async function createTransaction(data) {
   }
 }
 
-// Get Transaction
+
 export async function getTransaction(id) {
   const { userId } = await auth();
   if (!userId) throw new Error("Unauthorized");
@@ -93,7 +93,7 @@ export async function getTransaction(id) {
   return serializeAmount(transaction);
 }
 
-// Update Transaction
+
 export async function updateTransaction(id, data) {
   try {
     const { userId } = await auth();
@@ -167,7 +167,7 @@ export async function updateTransaction(id, data) {
   }
 }
 
-// Get User Transactions
+
 export async function getUserTransactions(query = {}) {
   try {
     const { userId } = await auth();
@@ -199,11 +199,11 @@ export async function getUserTransactions(query = {}) {
   }
 }
 
-// ✅ FIXED Scan Receipt
+
 export async function scanReceipt(file) {
   try {
     const model = genAI.getGenerativeModel({
-      model: "gemini-2.5-flash-lite", // ✅ stable working model
+      model: "gemini-2.5-flash-lite", 
     });
 
     const arrayBuffer = await file.arrayBuffer();
@@ -275,7 +275,7 @@ export async function scanReceipt(file) {
   }
 }
 
-// Helper
+
 function calculateNextRecurringDate(startDate, interval) {
   const date = new Date(startDate);
 

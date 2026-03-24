@@ -63,7 +63,7 @@ export const featuresData = [
   },
 ];
 
-// How It Works Data
+
 export const howItWorksData = [
   {
     icon: <CreditCard className="h-8 w-8 text-blue-600" />,
@@ -85,7 +85,7 @@ export const howItWorksData = [
   },
 ];
 
-// Testimonials Data
+
 export const testimonialsData = [
   {
     name: "Sarah Johnson",

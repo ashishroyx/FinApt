@@ -1,7 +1,7 @@
 import {
   SignInButton,
   UserButton,
-  Show, // New unified component
+  Show, 
 } from '@clerk/nextjs'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -23,7 +23,7 @@ const Header = () => {
         </Link>
 
         <div className='flex items-center space-x-4'>
-          {/* Use 'when' prop instead of separate SignedIn/SignedOut components */}
+          
           <Show when="signed-in">
             <Link href="/dashboard">
               <Button variant='outline' className="flex items-center gap-2">
@@ -41,7 +41,7 @@ const Header = () => {
 
             <UserButton
               appearance={{
-                options: { // 'layout' renamed to 'options' in Core 3
+                options: { 
                   avatarBox: "w-10 h-10",
                 },
               }}

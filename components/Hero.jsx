@@ -30,8 +30,7 @@ const HeroSection = () => {
 
     
     <section className="pt-40 pb-20 px-4 bg-white text-black">
-   {/* <div className="glow-fade top-0 left-0"></div>
-      <div className="glow-fade top-120 right-1"></div> */}
+   
       <div className="container mx-auto text-center">
         <h1 className="text-5xl md:text-8xl lg:text-[105px] pb-6 font-extrabold tracking-tighter bg-gradient-to-br from-teal-300 via-emerald-400 to-emerald-600 bg-clip-text text-transparent leading-tight">
   Manage Your Finances <br /> with FinApt

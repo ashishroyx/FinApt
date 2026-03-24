@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features Section */}
+     
       <section id="features" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12 text-black">
@@ -51,7 +51,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* How It Works Section */}
+      
       <section className="py-20 bg-black text-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-16">How It Works</h2>
@@ -69,7 +69,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
+     
       <section id="testimonials" className="py-20 bg-black" >
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-16">
@@ -102,7 +102,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Section */}
+      
       <section className="py-20 bg-black">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
