@@ -25,6 +25,7 @@
 ##  Tech Stack
 
 * **Core Framework:** [Next.js 16 (Turbopack)](https://nextjs.org/)
+* **Deployment:** [Vercel](https://vercel.com/) (Edge Functions & Optimized Hosting)
 * **Intelligence:** **Google Generative AI (Gemini)** (OCR & Financial Advice)
 * **Automation:** **Inngest** (Event-driven background functions)
 * **Database & ORM:** **Prisma** with **Supabase PostgreSQL**
