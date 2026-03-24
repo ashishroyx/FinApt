@@ -7,7 +7,7 @@
 ##  Project Links
 
 * **Live Website:** [View Finapt Live](https://fin-apt1.vercel.app/)
-* **Video Preview:** [Watch Product Walkthrough](https://your-video-link.com)
+* **Video Preview:** [Watch Product Walkthrough](https://drive.google.com/file/d/18CnUYFpgbEmMMWvDn8t3lUB3L_A1kLpB/view)
 
 ---
 
