@@ -128,3 +128,11 @@
     @apply font-sans;
   }
 }
+
+
+
+.gradient-title {
+  background: linear-gradient(90deg, #22C55E, #10B981);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
