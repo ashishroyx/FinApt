@@ -1,6 +1,6 @@
 #  Finapt | AI-Driven Financial Intelligence
 
-**Finapt** is a next-generation personal finance management platform. It combines **AI-powered insights**, **automated workflows**, and **high-fidelity data visualization** to help users track, analyze, and optimize their financial health in real-time.
+**Finapt** is a next-generation personal finance management platform. It combines **AI-powered insights**, **automated workflows**, and **high-fidelity data visualization** to help users track, analyze, and optimize their financial health with surgical precision.
 
 ---
 
@@ -13,25 +13,25 @@
 
 ##  Core Features
 
-* **AI Financial Advisor:** Integrated with **Google Gemini AI** to provide personalized financial advice, expense categorization, and budget forecasting.
-* **Smart Workflows:** Powered by **Inngest**, handling background tasks like automated recurring transactions and financial reporting without slowing down the UI.
+* **AI Smart Receipt Scanning:** Integrated with **Google Gemini AI** to instantly scan, read, and categorize physical bills or digital receipts. No manual entry required.
+* **Intelligent Financial Advisor:** Contextual advice and budget forecasting powered by the **Gemini API**.
+* **Automated Background Workflows:** Powered by **Inngest**, handling heavy lifting like recurring transactions and scheduled financial syncs.
 * **Advanced Analytics:** Dynamic spending charts and income distribution graphs built with **Recharts**.
-* **Automated Communication:** Transaction alerts and monthly summaries delivered via **React Email**.
-* **Modern UI/UX:** A sleek, accessible interface built with **Shadcn UI**, **Radix UI**, and **Vaul** (for smooth mobile drawers).
-* **Bulletproof Forms:** Type-safe financial data entry using **React Hook Form** and **Zod** validation.
+* **Modern UI/UX:** A sleek, accessible interface built with **Shadcn UI**, **Radix UI**, and **Vaul** drawers.
+* **Bulletproof Data:** Type-safe database operations using **Prisma ORM** connected to a high-performance **Supabase (PostgreSQL)** cluster.
 
 ---
 
 ##  Tech Stack
 
 * **Core Framework:** [Next.js 16 (Turbopack)](https://nextjs.org/)
-* **Intelligence:** **Google Generative AI (Gemini)**
-* **Automation:** **Inngest** 
-* **Database & ORM:** **Prisma** with **PostgreSQL** (via @prisma/adapter-pg)
-* **Authentication:** **Clerk** (Enterprise-grade user management)
+* **Intelligence:** **Google Generative AI (Gemini)** (OCR & Financial Advice)
+* **Automation:** **Inngest** (Event-driven background functions)
+* **Database & ORM:** **Prisma** with **Supabase PostgreSQL**
+* **Authentication:** **Clerk** (User Management)
 * **Styling:** **Tailwind CSS**, **Shadcn UI**, and **Lucide React**
 * **Visualization:** **Recharts**
-* **Validation:** **Zod** & **Hook Form**
+* **Communication:** **React Email**
 
 ---
 
